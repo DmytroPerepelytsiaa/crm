@@ -1,6 +1,8 @@
+<script setup lang="ts">
+import AdminLayout from '@/layouts/AdminLayout.vue';
+
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <AdminLayout></AdminLayout>
 </template>
