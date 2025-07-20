@@ -1,8 +1,5 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <div>
-    Companies Page>
+    Companies Page
   </div>
 </template>
