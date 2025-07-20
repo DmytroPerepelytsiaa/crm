@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         'primary-color': 'var(--primary-color)',
+        'primary-color-hover': 'var(--primary-color-hover)',
         'white-primary-color': 'var(--white-primary-color)',
-      }
+      },
     },
   },
   plugins: [],
-}
-
+};
