@@ -4,5 +4,7 @@ import AdminLayout from '@/layouts/AdminLayout.vue';
 </script>
 
 <template>
-  <AdminLayout></AdminLayout>
+  <NuxtLayout>
+    <AdminLayout />
+  </NuxtLayout>
 </template>
