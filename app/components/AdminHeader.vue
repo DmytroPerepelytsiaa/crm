@@ -12,8 +12,7 @@ defineProps<{
       <div class="flex items-center gap-3">
         <div 
           class="bg-red-500 w-11 h-11 flex items-center justify-center rounded-full" 
-          alt="Adam Smith" 
-          size="3xl"
+          aria-label="Adam Smith"
         >
           AS
         </div>
