@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-import { NAVIGATION_LINKS } from '@/utils';
-
-const links = NAVIGATION_LINKS;
+import { NAVIGATION_LINKS as links } from '@/utils';
 </script>
 
 <template>

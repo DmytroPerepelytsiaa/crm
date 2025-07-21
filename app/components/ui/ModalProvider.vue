@@ -1,20 +1,20 @@
 <script setup lang="ts">
-provide('modalProvider', { openModal, closeModal });
-
 const modal = reactive<{ component: unknown; props: Record<string, unknown> }>({
   component: null,
   props: {},
 });
 
-function openModal(component: unknown, props: Record<string, unknown>): void {
+const openModal = (component: unknown, props: Record<string, unknown>): void => {
   modal.component = component;
   modal.props = props;
-}
+};
 
-function closeModal(): void {
+const closeModal = (): void => {
   modal.component = null;
   modal.props = {};
-}
+};
+
+provide('modalProvider', { openModal, closeModal });
 </script>
 
 <template>
