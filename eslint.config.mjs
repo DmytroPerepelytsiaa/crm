@@ -20,11 +20,9 @@ export default withNuxt({
     '@stylistic/member-delimiter-style': ['error', {
       multiline: {
         delimiter: 'semi',
-        requireLast: true,
       },
       singleline: {
         delimiter: 'semi',
-        requireLast: true,
       },
     }],
     '@stylistic/no-trailing-spaces': 'off',

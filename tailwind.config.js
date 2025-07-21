@@ -10,6 +10,7 @@ export default {
         'gray-primary-color': 'var(--gray-primary-color)',
         'gray-secondary-color': 'var(--gray-secondary-color)',
         'gray-accent-color': 'var(--gray-accent-color)',
+        'black-50': 'var(--black-50)',
       },
     },
   },
