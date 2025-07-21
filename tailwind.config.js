@@ -7,6 +7,7 @@ export default {
         'primary-color': 'var(--primary-color)',
         'primary-color-hover': 'var(--primary-color-hover)',
         'white-primary-color': 'var(--white-primary-color)',
+        'gray-primary-color': 'var(--gray-primary-color)',
       },
     },
   },

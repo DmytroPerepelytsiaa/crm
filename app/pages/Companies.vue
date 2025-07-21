@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import AdminHeader from '@/components/AdminHeader.vue';
+</script>
+
 <template>
   <div>
-    Companies Page
+    <AdminHeader title="Companies" />
   </div>
 </template>

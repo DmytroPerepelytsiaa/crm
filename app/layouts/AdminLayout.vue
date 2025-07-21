@@ -4,10 +4,9 @@ import AdminSidebar from '@/components/AdminSidebar.vue';
 
 <template>
   <div>
-    <header></header>
     <main class="flex">
       <AdminSidebar />
-      <NuxtPage />
+      <NuxtPage class="flex-1 bg-white-primary-color" />
     </main>
   </div>
 </template>
