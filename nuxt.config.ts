@@ -16,6 +16,7 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/tailwind.scss',
     '@/assets/styles/variables.scss',
+    '@/assets/styles/animations.scss',
     '@/assets/css/main.scss',
   ],
   compatibilityDate: '2025-07-15',
