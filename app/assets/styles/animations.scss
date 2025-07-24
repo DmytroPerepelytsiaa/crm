@@ -1,0 +1,14 @@
+@keyframes focus-in {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.focus-in {
+	animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
